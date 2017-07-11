@@ -1,0 +1,44 @@
+$primary-color: #333333;
+$secondary-color: #85b790;
+
+@font-face {
+	font-family: Cabin-Medium;
+	src: url(Cabin-Medium.ttf);
+}
+
+*{
+	color: #333333;
+	font-family: Cabin-Medium;
+}
+
+header{
+	text-align: center;
+}
+
+h2{
+	margin-bottom: 0px;
+	font-size: 2em;
+}
+
+p{
+	margin-top: 7px;
+	margin-bottom: 25px;
+}
+span{
+	color: $secondary-color;
+}
+
+div{
+	background-color: $secondary-color;
+	height: 40px;
+	box-shadow: 0px;
+	width: 200px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;	
+	font-size: 0.8em;
+	border-radius: 3px;
+}
+

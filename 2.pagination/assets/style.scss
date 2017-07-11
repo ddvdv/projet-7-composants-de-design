@@ -1,0 +1,31 @@
+footer{
+	width: 700px;
+	height: 50px;
+	box-model: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #e5e5e5;
+}
+
+div{
+	width: 60px;
+	height: 30px;
+	background-color: #3b444f;
+	color: #f9ffff;
+	border-radius: 3px;
+	vertical-align: text-bottom;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.current {
+	background-color: #129fea;
+}
+
+.middle{
+	color: #3b444f;
+	background-color: #e5e5e5;
+}
