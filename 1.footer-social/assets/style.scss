@@ -1,0 +1,17 @@
+footer{
+	background-color: #f9f3e8;
+	color: #7c7974;
+	font-family: sans-serif;
+	height: 40px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+div, img{
+	flex-grow: 1;
+}
+div:first-child{
+	padding-left: 20px;
+	flex-grow: 20;
+}
