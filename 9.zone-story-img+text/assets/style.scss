@@ -1,0 +1,36 @@
+$largeurImage: 600px;
+$douxGris: #484848;
+
+body{
+	display: flex;
+	align-items: center;
+	font-family: sans-serif;
+}
+
+.description{
+	width: ($largeurImage/4)*3;
+	height: 100%;
+	padding-left: 30px;
+	padding-right: 50px;
+	color: $douxGris;
+	font-size: 1.1em;
+}
+
+h1{
+	font-size: 1.5em;
+}
+
+.button{
+	background-color: #008489;
+	color: white;
+	width: ($largeurImage/5)*3;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+.picture{
+	height: 100%;
+	img{
+
+	}
+}

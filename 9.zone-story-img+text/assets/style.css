@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  align-items: center;
+  font-family: sans-serif; }
+
+.description {
+  width: 450px;
+  height: 100%;
+  padding-left: 30px;
+  padding-right: 50px;
+  color: #484848;
+  font-size: 1.1em; }
+
+h1 {
+  font-size: 1.5em; }
+
+.button {
+  background-color: #008489;
+  color: white;
+  width: 360px;
+  padding: 10px;
+  border-radius: 3px; }
+
+.picture {
+  height: 100%; }
+
+/*# sourceMappingURL=style.css.map */

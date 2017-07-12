@@ -1,0 +1,56 @@
+$largeurTotale : 500px;
+
+body{
+	max-width: $largeurTotale;
+}
+@mixin box{
+	padding: 7px;
+	border-radius: 5px 0px 5px 0px;
+}
+
+.diggs{
+	position: absolute;
+	width: $largeurTotale/7;
+	height: 300px;
+	right: 10px;
+	top: 10px;
+	text-align: center;
+	.numDiggs{
+	@include box;
+	color: #947b74;
+	background-color: #fef29e;
+	margin-bottom: 7px;
+		span{
+			font-size: 1.4em;
+		}
+	}
+	.button{
+	@include box;
+	border: 1px solid #e4e6e5;
+	color: #495d75;
+	}
+}
+
+.stories{
+	margin: auto;
+	width: ($largeurTotale/7)*6;
+}
+
+.story{
+	display: flex;
+	margin-top: 20px;
+	.numStory{
+		color: #ededed;
+		font-size: 3em;
+		margin-right: 20px;
+	}
+	.textStory{
+		.title{
+			color: #485e85;
+			margin-bottom: 3px;
+		}
+		.synop{
+
+		}
+	}
+}
