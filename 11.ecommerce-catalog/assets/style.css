@@ -1,3 +1,55 @@
+body {
+  display: flex;
+  justify-content: stretch;
+  min-width: 900px;
+  font-family: 'Roboto'; }
 
+.product {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #aaaaaa;
+  font-size: 0.7em; }
+  .product .deal {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px; }
+    .product .deal .fnacDeal {
+      padding: 3px;
+      width: 70px;
+      background-color: #bf4e49;
+      color: white; }
+    .product .deal .reducPrice {
+      color: #bf4e49;
+      padding: 3px;
+      margin-left: 10px;
+      width: 30px; }
+  .product .fiche {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .product .fiche .pic {
+      width: auto;
+      height: 100px;
+      margin-bottom: 20px; }
+    .product .fiche div {
+      width: 90%; }
+    .product .fiche .name {
+      margin-bottom: 20px; }
+    .product .fiche .description, .product .fiche .comment {
+      color: rgba(170, 170, 170, 0.5);
+      margin-bottom: 20px; }
+    .product .fiche .priceRow1 * {
+      display: inline-block; }
+    .product .fiche .reduc {
+      font-size: 1.3em;
+      font-weight: bold; }
+    .product .fiche .oldPrice {
+      display: inline-block;
+      font-size: 0.7em;
+      color: black;
+      text-decoration: line-through; }
+  .product .price {
+    color: #bf4e49; }
 
 /*# sourceMappingURL=style.css.map */

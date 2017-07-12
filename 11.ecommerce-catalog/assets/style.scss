@@ -1,0 +1,71 @@
+$thatRed: #bf4e49;
+$thatYellow: #f5b027;
+$thatGrey: #aaaaaa;
+
+body{
+	display: flex;
+	justify-content: stretch;
+	min-width: 900px;
+	font-family: 'Roboto';
+}
+
+.product{
+	display: flex;
+	flex-direction: column;
+	border-right: 1px solid $thatGrey;
+	font-size: 0.7em;
+	.deal{
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 20px;
+		.fnacDeal{
+			padding: 3px;
+			width: 70px;
+			background-color: $thatRed;
+			color: white;
+		}
+		.reducPrice{
+			color: $thatRed;
+			padding: 3px;
+			margin-left: 10px;
+			width: 30px;
+		}
+	}
+	.fiche{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		.pic{
+			width: auto;
+			height: 100px;
+			margin-bottom: 20px;
+		}
+		div{
+		width: 90%;
+		}
+		.name{
+			margin-bottom: 20px;
+		}
+		.description, .comment{
+			color: transparentize($thatGrey, 0.50);
+			margin-bottom: 20px;
+		}
+		.priceRow1 * {
+			display: inline-block;
+		}
+		.reduc{
+			font-size: 1.3em;
+			font-weight: bold;
+		}
+		.oldPrice{
+			display: inline-block;
+			font-size: 0.7em;
+			color: black;
+  			text-decoration: line-through;
+		}
+	}
+	.price{
+		color: $thatRed;
+	}
+}
